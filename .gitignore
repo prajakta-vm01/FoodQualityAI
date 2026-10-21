@@ -1,0 +1,28 @@
+# Python virtual environments & bytecode
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Large Datasets & Uploaded Artifacts
+# Note: Keep original dataset separate and excluded from git
+data/
+backend/uploads/
+food_quality.db
+
+# Model checkpoints (large weights)
+*.pt
+*.pth
+*.onnx
+
+# Environment & IDE
+.env
+.vscode/
+.idea/
+.DS_Store

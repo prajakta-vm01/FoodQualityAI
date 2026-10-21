@@ -1,0 +1,29 @@
+{
+  "train_loss": [
+    2.3302,
+    1.6703,
+    0.9647
+  ],
+  "train_acc": [
+    0.2875,
+    0.7458,
+    0.9
+  ],
+  "val_loss": [
+    2.0824,
+    1.3062,
+    0.712
+  ],
+  "val_acc": [
+    0.7333,
+    0.8833,
+    0.9167
+  ],
+  "epochs": 3,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "device": "cpu",
+  "smoke_test": true,
+  "total_duration_seconds": 35.46,
+  "best_val_accuracy": 0.9167
+}

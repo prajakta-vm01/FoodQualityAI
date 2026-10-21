@@ -1,0 +1,163 @@
+{
+  "dataset_path": "D:\\FoodQualityAi\\data",
+  "total_classes": 12,
+  "class_names": [
+    "fresh_apple",
+    "fresh_banana",
+    "fresh_bitter_gourd",
+    "fresh_capsicum",
+    "fresh_orange",
+    "fresh_tomato",
+    "stale_apple",
+    "stale_banana",
+    "stale_bitter_gourd",
+    "stale_capsicum",
+    "stale_orange",
+    "stale_tomato"
+  ],
+  "total_images": 14682,
+  "corrupted_images": [],
+  "class_distribution": {
+    "fresh_apple": {
+      "total_files": 1693,
+      "valid_images": 1693,
+      "corrupted": 0,
+      "extensions": {
+        ".png": 1693
+      }
+    },
+    "fresh_banana": {
+      "total_files": 1581,
+      "valid_images": 1581,
+      "corrupted": 0,
+      "extensions": {
+        ".png": 1581
+      }
+    },
+    "fresh_bitter_gourd": {
+      "total_files": 327,
+      "valid_images": 327,
+      "corrupted": 0,
+      "extensions": {
+        ".jpg": 327
+      }
+    },
+    "fresh_capsicum": {
+      "total_files": 990,
+      "valid_images": 990,
+      "corrupted": 0,
+      "extensions": {
+        ".jpg": 990
+      }
+    },
+    "fresh_orange": {
+      "total_files": 1466,
+      "valid_images": 1466,
+      "corrupted": 0,
+      "extensions": {
+        ".png": 1466
+      }
+    },
+    "fresh_tomato": {
+      "total_files": 981,
+      "valid_images": 981,
+      "corrupted": 0,
+      "extensions": {
+        ".jpg": 981
+      }
+    },
+    "stale_apple": {
+      "total_files": 2342,
+      "valid_images": 2342,
+      "corrupted": 0,
+      "extensions": {
+        ".png": 2342
+      }
+    },
+    "stale_banana": {
+      "total_files": 1467,
+      "valid_images": 1467,
+      "corrupted": 0,
+      "extensions": {
+        ".png": 1467
+      }
+    },
+    "stale_bitter_gourd": {
+      "total_files": 357,
+      "valid_images": 357,
+      "corrupted": 0,
+      "extensions": {
+        ".jpg": 357
+      }
+    },
+    "stale_capsicum": {
+      "total_files": 901,
+      "valid_images": 901,
+      "corrupted": 0,
+      "extensions": {
+        ".jpg": 901
+      }
+    },
+    "stale_orange": {
+      "total_files": 1595,
+      "valid_images": 1595,
+      "corrupted": 0,
+      "extensions": {
+        ".png": 1595
+      }
+    },
+    "stale_tomato": {
+      "total_files": 982,
+      "valid_images": 982,
+      "corrupted": 0,
+      "extensions": {
+        ".jpg": 982
+      }
+    }
+  },
+  "extension_distribution": {
+    ".png": 10144,
+    ".jpg": 4538
+  },
+  "produce_distribution": {
+    "apple": {
+      "fresh": 1693,
+      "stale": 2342,
+      "total": 4035
+    },
+    "banana": {
+      "fresh": 1581,
+      "stale": 1467,
+      "total": 3048
+    },
+    "bitter_gourd": {
+      "fresh": 327,
+      "stale": 357,
+      "total": 684
+    },
+    "capsicum": {
+      "fresh": 990,
+      "stale": 901,
+      "total": 1891
+    },
+    "orange": {
+      "fresh": 1466,
+      "stale": 1595,
+      "total": 3061
+    },
+    "tomato": {
+      "fresh": 981,
+      "stale": 982,
+      "total": 1963
+    }
+  },
+  "duplicates_detected": 0,
+  "summary": {
+    "total_images": 14682,
+    "valid_images": 14682,
+    "corrupted_images_count": 0,
+    "duplicates_count": 0,
+    "imbalance_ratio_max_min": 7.16,
+    "produce_categories_count": 6
+  }
+}

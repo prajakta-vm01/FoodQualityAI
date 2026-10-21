@@ -1,0 +1,38 @@
+{
+  "architecture": "MobileNetV2",
+  "num_classes": 12,
+  "classes": [
+    "fresh_apple",
+    "fresh_banana",
+    "fresh_bitter_gourd",
+    "fresh_capsicum",
+    "fresh_orange",
+    "fresh_tomato",
+    "stale_apple",
+    "stale_banana",
+    "stale_bitter_gourd",
+    "stale_capsicum",
+    "stale_orange",
+    "stale_tomato"
+  ],
+  "input_resolution": [
+    224,
+    224,
+    3
+  ],
+  "normalization": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "trained_date": "2026-10-17 18:40:53",
+  "best_val_accuracy": 0.9167,
+  "smoke_test": true
+}
